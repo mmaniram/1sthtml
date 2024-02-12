@@ -8,3 +8,27 @@ body {
 h1 {
     color:rgb(255, 85, 0);
 }
+nav {
+    li {
+        display: inline-block;
+      }
+}
+nav {
+    font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
+    background: red;
+  }
+  li {
+    display: inline-block;
+    padding: rem; /* not such a good idea */
+    border-left: 1px solid white; /* neither is this */
+    &:first-child {
+      border-left: none;
+    }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      border-bottom:  solid white;
+    }
+  }
