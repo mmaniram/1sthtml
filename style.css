@@ -2,11 +2,11 @@
 
 body {
     background-color: aquamarine;
-    color: blueviolet; 
+    color: rgb(226, 43, 43); 
     font-family: Montserrat;
 }
 h1 {
-    color:rgb(255, 85, 0);
+    color:rgb(255, 0, 0);
 }
 nav {
     li {
@@ -15,20 +15,15 @@ nav {
 }
 nav {
     font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
-    background: red;
+    background: rgb(255, 0, 0);
   }
   li {
     display: inline-block;
     padding: rem; /* not such a good idea */
-    border-left: 1px solid white; /* neither is this */
-    &:first-child {
-      border-left: none;
-    }
+
   }
   a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    &:hover {
-      border-bottom:  solid white;
-    }
+
   }
