@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Protest+Riot&display=swap');
 
 body {
-    background-color: aquamarine;
-    color: rgb(21, 14, 14); 
-    font-family: Montserrat;
+    background-color: rgb(216, 237, 246);
+    color: rgb(15, 11, 11); 
+    font-family: "IBM Plex Sans", sans-serif;
 }
 h1 {
     color:rgb(15, 1, 1);
@@ -14,8 +14,8 @@ nav {
       }
 }
 nav {
-    font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
-    background: rgb(10, 5, 5);
+    font-family: "IBM Plex Sans", sans-serif;
+    background: rgb(32, 30, 30);
   }
   li {
     display: inline-block;
