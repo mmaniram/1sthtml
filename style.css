@@ -9,27 +9,39 @@ h1{
   text-align: center;
 }
 
-
 h2,h3,h4 {
     color:rgb(15, 1, 1);
     font-family: "IBM Plex Sans", sans-serif;
 }
 nav {
-    li {
-        display: inline-block;
-      }
-}
-nav {
     font-family: "IBM Plex Sans", sans-serif;
     background: rgb(32, 30, 30);
-  }
+    position: sticky; 
+    Top: 0;
+   }
+  
+
   li {
     display: inline-block;
-    padding: rem; /* not such a good idea */
+    padding: 10px;
 
   }
   a {
-    color: rgba(249, 244, 244, 0.941);
+    color: rgba(246, 242, 242, 0.941);
     text-decoration: none;
 
   }
+  a:hover {
+    color: #287ee0;
+  }
+  a:active {
+    color: #ec93c1;
+  }
+  a:visited {
+    color: #3bed3bb4;
+  }
+  a:link {
+    color: #cc7cfa;
+  }
+    
+    
