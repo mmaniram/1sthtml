@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Protest+Riot&display=swap');
 
 body {
-    background-color: rgb(216, 237, 246);
-    color: rgb(15, 11, 11); 
-    font-family: "IBM Plex Sans", sans-serif;
+  background-color: rgb(216, 237, 246);
+  color: rgb(15, 11, 11); 
+  font-family: "IBM Plex Sans", sans-serif;
 }
-h1{
+
+h1 {
   text-align: center;
 }
 
+
+
+
 h2,h3,h4 {
-    color:rgb(15, 1, 1);
-    font-family: "IBM Plex Sans", sans-serif;
+  color: rgb(15, 1, 1);
+  font-family: "IBM Plex Sans", sans-serif;
 }
 nav {
     font-family: "IBM Plex Sans", sans-serif;
@@ -40,8 +44,7 @@ nav {
   a:visited {
     color: #3bed3bb4;
   }
-  a:link {
-    color: #cc7cfa;
-  }
+  
+  
     
     
