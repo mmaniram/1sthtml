@@ -19,7 +19,7 @@ h2,h3,h4 {
 }
 nav {
     font-family: "IBM Plex Sans", sans-serif;
-    background: rgb(32, 30, 30);
+    background: rgb(80, 127, 181);
     position: sticky; 
     Top: 0;
    }
@@ -45,6 +45,9 @@ nav {
     color: #3bed3bb4;
   }
   
-  
-    
-    
+  .images {
+    text-align: center;
+  }
+   div {
+    text-align: center;
+   }
